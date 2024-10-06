@@ -9,6 +9,11 @@ test.describe("all testCases login",()=>{
         await page.locator("#kc-login").click();
 
     })
+    test("test title",async({page})=>{
+        const title=await page.title()
+        expect(title).toBe("Sign in to Emma")
+
+    })
     test("should be able to login",async({page})=>{
     
         
