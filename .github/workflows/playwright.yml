@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main, master ]
   schedule:
-    - cron: '37 15 * * *'  # 5:37 مساءً بتوقيت الأردن (UTC+3)
+    - cron: '40 15 * * *'  # 5:37 مساءً بتوقيت الأردن (UTC+3)
 
 jobs:
   test:
