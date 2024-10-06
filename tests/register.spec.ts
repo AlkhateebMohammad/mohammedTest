@@ -20,7 +20,7 @@ test.describe("all testCases login",()=>{
         await page.waitForTimeout(4000)
 
      const expected=page.locator("#input-error")
-     await expect(expected).not.toBeVisible()
+     await expect(expected).toBeVisible()
 
 })
 test("forgot password", async ({page})=>{
